@@ -20,7 +20,7 @@ resource "azurerm_subnet_network_security_group_association" "db_subnet_nsg_asso
     network_security_group_id = azurerm_network_security_group.db_subnet_nsg.id
 }
 
-# NSG Inbound Rules [22, 80, 443]
+# NSG Inbound Rules [1433, 3306, 5432]
 resource "azurerm_network_security_rule" "db_nsg_rule_inbound" {
     for_each = db_inbound_ports_map
     name = "Rule-Port-${each.value}"
