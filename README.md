@@ -14,3 +14,6 @@
 4. azurerm_network_security_group
 5. azurerm_subnet_network_security_group_association
 6. azurerm_network_security_rule
+
+
+![vnet-nsg-diagram](https://user-images.githubusercontent.com/58280054/218884055-8eeeffe7-afa3-45e4-b07b-819697a3a505.png)
