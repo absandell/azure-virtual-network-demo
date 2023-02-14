@@ -24,6 +24,6 @@ variable "rg_name" {
 # Azure Resources Location
 variable "rg_location" {
     description = "Resource Group Location"
-    type = string
-    default = "eastus2"
+    type        = string
+    default     = "eastus2"
 }
