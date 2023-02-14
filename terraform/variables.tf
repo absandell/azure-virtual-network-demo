@@ -4,7 +4,7 @@
 variable "business_division" {
     description = "Business Division in the large organization this Infrastructure belongs to"
     type = string
-    default = "SAP"
+    default = "testing"
 }
 
 # Environment Variable
